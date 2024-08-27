@@ -1,6 +1,85 @@
 .App {
   text-align: center;
 }
+body{
+
+  background-image: url(./images/pngtree-faceted-abstract-background-in-3d-with-shimmering-iridescent-metallic-texture-of-picture-image_3653595.jpg);
+}
+
+.container {
+  max-width: 400px;
+  margin-top:5vh;
+  margin-left: 60vh;
+  padding: 70px;
+  background-color: #f9f9f9;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20vh;
+  padding: 10px;
+  margin-left:62vh;
+  background-color: #4CAF50;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+  width: 60vh;
+}
+
+.h1:hover {
+  background-color: #45a049;
+  color: #f9f9f9;
+}
+
+#titulo-numero {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#texto-numero {
+  width: 80%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-comprobar {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.btn-comprobar:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 500px) {
+  .container {
+      width: 90%;
+  }
+
+  #texto-numero {
+      width: 100%;
+  }
+}
 
 .App-logo {
   height: 40vmin;
